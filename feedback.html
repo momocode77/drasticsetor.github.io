@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Product-Drasticsetor</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>  
+        <div class="header">      
+        <div class="container">
+           <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="redstore_img/images/IMG_2015.png" width="125px"></a>
+                </div>
+                <nav>
+                        <ul id="MenuItems">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="product.html">Catalog</a></li>
+                                <li><a href="">Feedback</a></li>
+                        </ul>
+                </nav>
+                <img src="redstore_img/images/cart.png" width="30px" height="30px">
+                <img src="redstore_img/images/menu.png" class="menu-icon"
+                onclick="menutoggle()">
+               
+        </div>
+        
+        </div>
+        </div> 
+
+<!---------------featured product----------->
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>Feedback Section</h2>
+        <select>
+            <option>Default</option>
+            <option>Sort By Single Set</option>
+            <option>Sort By Couple Set</option>
+        </select>
+    </div>
+    <div class="productchoice"> 
+        <div class="row">
+          <div class="col-10">
+                        <span class="fa fa-quote-left fa-1x "></span>
+                        <p>
+                                Barang boekk!Customer cakap.
+                        </p>
+                        <a href="pilihanproduct.html"><img src="Redstore_img/feedback/FEEDBACK 2-Recovered.jpg"></a>
+                        <h4>Rating:</h4>
+
+                        <div class="rating">
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x "></span>  
+                        </div>
+          </div>
+                <div class="col-10">
+                         <span class="fa fa-quote-left fa-1x "></span>
+                        <p>
+                            Tersenyum gembira pasangan menerima hadiah!
+                        </p>
+                        
+                        <a href="pilihanproduct.html"><img src="Redstore_img/feedback/feedback 8.jpg"></a>
+                        <h4>Rating:</h4>
+                    <div class="rating">
+                            <span class="fa fa-star fa-1x checked"></span>
+                            <span class="fa fa-star fa-1x checked"></span>
+                            <span class="fa fa-star fa-1x checked"></span>
+                            <span class="fa fa-star fa-1x checked"></span>
+                            <span class="fa fa-star fa-1x "></span>  
+                    </div>
+                 </div>
+                <div class="col-10">
+                        <span class="fa fa-quote-left fa-1x "></span>
+                        <p>
+                                Nak tambah note side pun tiada masalah!
+                         </p>
+                 
+                        <a href="pilihanproduct.html"><img src="Redstore_img/feedback/F4.jpg"></a>
+                        <h4>Rating:</h4>
+
+                        <div class="rating">
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x checked"></span>
+                                <span class="fa fa-star fa-1x "></span>  
+                        </div>
+                 </div>
+                <div class="col-10">
+                         <a href="pilihanproduct.html"><img src="Redstore_img/feedback/DRASTIC FB-1-Recovered.jpg"></a>
+                        <h4>CASIO</h4>
+                 </div>
+        
+        </div>
+     </div>
+
+    
+        <div class="page-btn">
+            <a href="index.html"><span>1</span></a>
+            <span>&#8594;</span>
+        </div>
+</div>
+</div>
+<!----------------------footer--------------->
+        <div class="footer">
+                <div class="container">
+                        <div class="row">
+                                <div class="footer-col-1">
+                                        <h3>Contact Us Now!</h3>
+                                        <p>Contact us for more detail and promotions.</p>
+                                </div>
+                                <div class="footer-col-2">
+                                        <h1>DRASTICSETOR</h1>
+                                        <p>Our purpose is to fulfill the lifestyle for user to get<br> many benefit of fashion item.</p>
+                                </div>
+                                <div class="footer-col-3">
+                                        <h3>Useful Links</h3>
+                                        <ul>
+                                                <li>Coupons</li>
+                                                <li>Promotions</li>
+                                                <li>Return Policy</li>
+                                                <li>Join Us</li>
+
+                                        </ul>
+                                </div>
+                                <div class="footer-col-4">
+                                        <h3>Follow Us On</h3>
+                                        <ul>
+                                                <li>Instagram</li>
+                                                <li>Twitter</li>
+                                                <li>Facebook</li>
+                                                <li>Youtube</li>
+
+                                        </ul>
+                                </div>
+                        </div>
+                        <p class="Copyright">Copyright 2019 - Drasticsetor</p>
+                </div>
+        </div>
+<!----------------------js for toggle menu--------------->
+       <script>
+               var MenuItems = document.getElementById("MenuItems");
+
+               MenuItems.style.maxHeight = "0px"
+
+               function menutoggle(){
+                       if(MenuItems.style.maxHeight == "0px")
+                {
+                        MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                        MenuItems.style.maxHeight = "0px";
+                }
+        }
+                
+       </script>
+
+</body>
+
+</html>
